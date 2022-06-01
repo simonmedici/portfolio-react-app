@@ -1,7 +1,8 @@
-import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaMailBulk, FaMagic} from 'react-icons/fa';
+import React, {useState} from 'react';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import {bsFillPersonaLinesFill, BsFillPersonLinesFill} from 'react-icons/bs'
+import {BsFillPersonLinesFill} from 'react-icons/bs';
+import CvSimonMedici from '../assets/CV_Simon_Medici.pdf';
 
 import {Link} from 'react-scroll'
 
@@ -66,7 +67,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-[color:var(--text-color)]' href="/">
+                    <a className='flex justify-between items-center w-full text-[color:var(--text-color)]' href="https://github.com/simonmedici/">
                         Github <FaGithub size={30} />
                     </a>
                 </li>
@@ -77,9 +78,9 @@ const Navbar = () => {
                     </a>
                 </li>
                 </Link>
-                <Link to="CV_Simon_Medici.pdf" target="_blank" download>
+                <Link to={CvSimonMedici} target="_blank" download>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-400'>
-                    <a className='flex justify-between items-center w-full text-[color:var(--text-color)]' href="/">
+                    <a className='flex justify-between items-center w-full text-[color:var(--text-color)]' href="public/CV_Simon_Medici.pdf ">
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
