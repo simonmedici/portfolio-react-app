@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 const About = () => {
   return (
@@ -12,16 +13,19 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-4xl font-bold'>
-                        <p>Hi. I'm Simon, happy to have you.</p>
+                        <p>Hi I'm Simon, happy to have you here.</p>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id purus mattis velit elementum aliquet 
-                            non ut neque. Donec vitae interdum odio. Duis ut porttitor orci. Sed pellentesque molestie ex at 
-                            convallis. Pellentesque blandit eget libero quis gravida. Suspendisse maximus rhoncus eros, quis gravida 
-                            felis aliquam non. Nullam sit amet viverra sapien. Morbi vestibulum placerat purus, non placerat ante 
-                            sodales id. Aliquam egestas eleifend tellus eu vestibulum. Nullam bibendum nisl dolor, ac placerat 
-                            turpis dictum eu. Curabitur sagittis urna velit, eget convallis nulla consequat quis. Integer in 
-                            lacinia tortor. Sed sed efficitur velit.
+                        <p>I am an explorer by heart, if it’s a new technology, a new skill or a new language. 
+                            Always curious to see behind the curtain. This curiosity is my main driver and 
+                            propels my creativity and projects every day. My international experience in Monterrey, 
+                            Mexico and Melbourne, Australia has shaped my understanding of foreign cultures, 
+                            broadened my horizon and multiplied my language skills. I find fulfillment in making 
+                            customer dreams come true with top notch digital web experiences. My experience of 
+                            working as a product manager in the interface between development and customer helps 
+                            me putting myself in the shoes of the customer as well as the user. Therefore, I am 
+                            able to fully address the needs of various stakeholders. You’re looking for a full 
+                            fetched online appearance? Let’s get in touch.
                         </p>
                     </div>
                 </div>

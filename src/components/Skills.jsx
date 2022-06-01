@@ -12,13 +12,13 @@ const Skills = () => {
   return (
     <div name='skills' className='w-full bg-[color:var(--background-color)] text-[color:var(--text-color)]'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-[color:var(--highlight-color)]'>Skills</p>
           <p className='py-4'>These are the technologies I've worked with</p>
         </div>
 
-        <div className='w-full grid grid-cols-3 sm:grid-cols-6 gap-4 text-center py-8'>
+        <div className='w-full grid grid-cols-3 sm:grid-cols-6 gap-4 text-center py-20'>
 
         <div className='hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
