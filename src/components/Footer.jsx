@@ -18,13 +18,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-
-{/*
-<a className='flex justify-between items-center w-full text-[color:var(--text-color)]' href="https://www.linkedin.com/in/simon-medici-a5b570180/">
-                        Linkedin <FaLinkedin size={30} />
-                    </a>
-
-                    <div className='hover:scale-110 duration-500'>
-
-*/}
